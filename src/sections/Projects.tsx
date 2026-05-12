@@ -7,7 +7,7 @@ import p4 from "../assets/project-4.jpg";
 
 const projects = [
   {
-    title: "AI Melgorani",
+    title: "AI Pomgranetes",
     description: "AI system based on the pomegranate domain.",
     image: p1,
     stack: ["Python", "Naomic-Embedding", "SQLite"],
