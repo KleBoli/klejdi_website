@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
 
 const socials = [
-  { icon: FiGithub, href: "https://github.com", label: "GitHub" },
+  { icon: FiGithub, href: "https://github.com/KleBoli", label: "GitHub" },
   { icon: FiLinkedin, href: "https://www.linkedin.com/in/klejdi-tahiri-ab69bb291/", label: "LinkedIn" },
   { icon: FiMail, href: "mailto:kleiditahiri@gmail.com", label: "Email" },
 ];

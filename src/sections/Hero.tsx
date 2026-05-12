@@ -57,22 +57,25 @@ export function Hero() {
           className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-            }}
-            className="group relative px-8 py-4 rounded-full bg-gradient-red text-primary-foreground font-medium tracking-wide shadow-glow hover:shadow-glow-strong transition-smooth hover:scale-105"
-          >
-            <span className="relative z-10">Contattami</span>
-          </a>
+  href="#"
+  onClick={(e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  }}
+  className="group relative px-8 py-4 rounded-full bg-gradient-red text-primary-foreground font-medium tracking-wide shadow-glow hover:shadow-glow-strong transition-smooth hover:scale-105"
+>
+  <span className="relative z-10">Contacts</span>
+</a>
           <a
             href="/cv.pdf"
             download
             className="group flex items-center gap-2 px-8 py-4 rounded-full glass border border-primary/40 text-foreground font-medium tracking-wide hover:border-primary hover:bg-primary/10 transition-smooth"
           >
             <HiDownload className="text-lg group-hover:translate-y-0.5 transition-transform" />
-            Scarica CV
+            Download CV
           </a>
         </motion.div>
       </div>

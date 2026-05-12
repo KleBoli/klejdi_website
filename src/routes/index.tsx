@@ -42,7 +42,7 @@ function Index() {
         <Projects />
         <Studies />
         <Social />
-        <Contact />
+      
       </main>
       <Footer />
     </>
