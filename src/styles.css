@@ -68,6 +68,35 @@
   --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+.light {
+  --background: oklch(0.985 0.005 20);
+  --foreground: oklch(0.18 0.02 20);
+  --card: oklch(1 0 0 / 70%);
+  --card-foreground: oklch(0.18 0.02 20);
+  --popover: oklch(0.99 0.005 20);
+  --popover-foreground: oklch(0.18 0.02 20);
+  --primary: oklch(0.45 0.2 25);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.94 0.01 20);
+  --secondary-foreground: oklch(0.2 0.02 20);
+  --muted: oklch(0.95 0.01 20);
+  --muted-foreground: oklch(0.45 0.02 20);
+  --accent: oklch(0.55 0.23 25);
+  --accent-foreground: oklch(0.99 0 0);
+  --border: oklch(0.45 0.1 25 / 25%);
+  --input: oklch(0.94 0.01 20);
+  --ring: oklch(0.5 0.22 25);
+  --burgundy: oklch(0.4 0.16 20);
+  --glow: oklch(0.55 0.24 25);
+
+  --gradient-hero: radial-gradient(ellipse at top, oklch(0.7 0.15 25 / 35%) 0%, oklch(0.985 0.005 20) 60%);
+  --gradient-red: linear-gradient(135deg, oklch(0.5 0.22 25) 0%, oklch(0.4 0.16 20) 100%);
+  --gradient-text: linear-gradient(135deg, oklch(0.18 0.02 20) 0%, oklch(0.45 0.2 25) 100%);
+  --shadow-glow: 0 0 40px oklch(0.55 0.25 25 / 25%);
+  --shadow-glow-strong: 0 0 80px oklch(0.6 0.27 25 / 40%);
+  --shadow-card: 0 20px 60px oklch(0.4 0.05 20 / 18%);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
