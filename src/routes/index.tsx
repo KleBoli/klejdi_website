@@ -6,7 +6,7 @@ import { Hero } from "../sections/Hero";
 import { About } from "../sections/About";
 import { CV } from "../sections/CV";
 import { Projects } from "../sections/Projects";
-import { Gallery } from "../sections/Gallery";
+import { Studies } from "../sections/Studies";
 import { Social } from "../sections/Social";
 import { Contact } from "../sections/Contact";
 
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio cinematico di Alex Morgan: progetti, CV, gallery e contatti. Design futuristico in burgundy e nero.",
+          "Portfolio cinematico di Alex Morgan: progetti, CV, studi e contatti. Design futuristico in burgundy e nero.",
       },
       { property: "og:title", content: "Alex Morgan — Portfolio" },
       {
@@ -40,7 +40,7 @@ function Index() {
         <About />
         <CV />
         <Projects />
-        <Gallery />
+        <Studies />
         <Social />
         <Contact />
       </main>
