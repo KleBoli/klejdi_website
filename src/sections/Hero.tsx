@@ -27,7 +27,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-sm md:text-base uppercase tracking-[0.4em] text-primary mb-6"
         >
-          Full-Stack Developer & Designer
+          Software Engineer
         </motion.p>
 
         <motion.h1
@@ -36,9 +36,9 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           className="font-display text-6xl md:text-8xl lg:text-[10rem] font-bold leading-[0.9] tracking-tight"
         >
-          <span className="text-gradient red-glow-text">Alex</span>
+          <span className="text-gradient red-glow-text">Klejdi</span>
           <br />
-          <span className="text-foreground">Morgan</span>
+          <span className="text-foreground">Tahiri</span>
         </motion.h1>
 
         <motion.p

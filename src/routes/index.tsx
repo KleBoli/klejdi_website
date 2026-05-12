@@ -13,13 +13,13 @@ import { Contact } from "../sections/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Full-Stack Developer & Designer" },
+      { title: "Klejdi Tahiri's Website" },
       {
         name: "description",
         content:
-          "Portfolio cinematico di Alex Morgan: progetti, CV, studi e contatti. Design futuristico in burgundy e nero.",
+          "Portfolio cinematico di Klejdi Tahiri: progetti, CV, studi e contatti. Design futuristico in burgundy e nero.",
       },
-      { property: "og:title", content: "Alex Morgan — Portfolio" },
+      { property: "og:title", content: "Klejdi Tahiri — Portfolio" },
       {
         property: "og:description",
         content: "Esperienze digitali immersive con design cinematico.",

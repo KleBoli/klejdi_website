@@ -7,35 +7,35 @@ import p4 from "../assets/project-4.jpg";
 
 const projects = [
   {
-    title: "Nebula Analytics",
-    description: "Dashboard real-time con visualizzazioni interattive e dark mode immersiva.",
+    title: "AI Melgorani",
+    description: "AI system based on the pomegranate domain.",
     image: p1,
-    stack: ["React", "TypeScript", "D3.js", "Tailwind"],
+    stack: ["Python", "Naomic-Embedding", "SQLite"],
     github: "https://github.com",
-    live: "https://example.com",
   },
   {
-    title: "Crimson Commerce",
-    description: "App mobile e-commerce premium con animazioni fluide e checkout one-tap.",
+    title: "Keep Track",
+    description:
+      "Mobile app developed in Kotlin to assign tasks to children with disabilities.",
     image: p2,
-    stack: ["React Native", "Stripe", "Node"],
+    stack: ["Kotlin", "Firebase", "XML"],
     github: "https://github.com",
-    live: "https://example.com",
   },
   {
-    title: "Vertex 3D Studio",
-    description: "Configuratore 3D web con shading custom e WebGL ad alte performance.",
+    title: "Distributed Network Software",
+    description:
+      "Distributed network software that simulates highway equipment signals.",
     image: p3,
-    stack: ["Three.js", "GLSL", "Vite"],
+    stack: ["Java", "Angular"],
     github: "https://github.com",
   },
   {
-    title: "Inferno SaaS",
-    description: "Landing + dashboard per piattaforma SaaS, design system completo.",
+    title: "React Website",
+    description:
+      "React-based website with a clean interface and lead generation features.",
     image: p4,
-    stack: ["Next.js", "Postgres", "tRPC"],
+    stack: ["React", "Vite", "Supabase"],
     github: "https://github.com",
-    live: "https://example.com",
   },
 ];
 
@@ -104,16 +104,7 @@ export function Projects() {
                   >
                     <FiGithub /> GitHub
                   </a>
-                  {p.live && (
-                    <a
-                      href={p.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-red text-primary-foreground hover:scale-105 transition-smooth text-sm shadow-glow"
-                    >
-                      <FiExternalLink /> Live Demo
-                    </a>
-                  )}
+                  
                 </div>
               </div>
             </motion.article>

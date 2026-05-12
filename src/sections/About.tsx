@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile_kle.png";
 import { SiReact, SiTypescript, SiNodedotjs, SiTailwindcss, SiFigma, SiPython } from "react-icons/si";
 
 const skills = [
@@ -49,13 +49,10 @@ export function About() {
             Designing the <span className="text-gradient">future</span>, one pixel at a time.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            Sono uno sviluppatore full-stack con la passione per le esperienze digitali immersive.
-            Combino design cinematico, performance e attenzione ai dettagli per costruire prodotti
-            che rimangono impressi.
+            I am a newly graduated software developer with a strong passion for technology and creating innovative digital solutions. I develop all kinds of software, from management systems and distributed network applications to modern, high-performance mobile and web apps.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            Negli ultimi 6 anni ho collaborato con startup, agenzie creative e clienti enterprise
-            in tutto il mondo, dal concept al deploy.
+            Throughout my academic journey and personal projects, I have gained experience in full-stack development, working on both frontend and backend technologies with a strong focus on code quality, usability, and performance. I enjoy turning ideas into concrete, functional, and detail-oriented products, constantly exploring new technologies and approaches to create effective and intuitive digital experiences.
           </p>
 
           <div className="grid grid-cols-3 gap-3">

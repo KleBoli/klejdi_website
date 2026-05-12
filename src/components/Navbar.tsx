@@ -53,7 +53,7 @@ export function Navbar() {
       >
         <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link to="/" className="text-xl font-bold tracking-wider">
-            <span className="text-gradient">ALEX</span>
+            <span className="text-gradient">Klejdi</span>
             <span className="text-foreground">.dev</span>
           </Link>
 

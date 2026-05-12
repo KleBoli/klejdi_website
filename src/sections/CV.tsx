@@ -39,20 +39,17 @@ export function CV() {
 
             <div className="flex-1 text-center md:text-left">
               <h3 className="font-display text-2xl md:text-3xl font-bold mb-2">
-                Alex Morgan — CV 2026
+                Klejdi Tahiri — CV 2026
               </h3>
-              <p className="text-muted-foreground mb-6">
-                Esperienza, competenze e progetti — tutto in un PDF elegante.
-                Sostituisci facilmente <code className="text-primary">/public/cv.pdf</code>.
-              </p>
+              
               <a
-                href="/cv.pdf"
-                download
-                className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-red text-primary-foreground font-medium shadow-glow hover:shadow-glow-strong hover:scale-105 transition-smooth"
-              >
-                <HiDownload className="text-lg" />
-                Download PDF
-              </a>
+  href="/cv.pdf"
+  download
+  className="mt-6 inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-red text-primary-foreground font-medium shadow-glow hover:shadow-glow-strong hover:scale-105 transition-smooth"
+>
+  <HiDownload className="text-lg" />
+  Download PDF
+</a>
             </div>
           </div>
         </motion.div>

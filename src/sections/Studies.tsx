@@ -3,32 +3,32 @@ import { HiAcademicCap } from "react-icons/hi";
 
 const studies = [
   {
-    period: "2022 — 2024",
-    title: "MSc in Computer Science",
-    school: "Politecnico di Milano",
-    description:
-      "Specializzazione in Human-Computer Interaction e sistemi distribuiti. Tesi sull'ottimizzazione di interfacce immersive con WebGL.",
-  },
-  {
-    period: "2019 — 2022",
+    period: "2022 — 2023",
     title: "BSc in Software Engineering",
-    school: "Università di Bologna",
+    school: "University of Eastern Piedmont",
     description:
-      "Fondamenti di ingegneria del software, algoritmi, basi di dati e sviluppo web moderno. Laurea con lode.",
+      "Fundamentals of software engineering, algorithms, databases, and modern web development.",
   },
   {
-    period: "2018",
-    title: "Diploma Scientifico",
-    school: "Liceo Scientifico G. Galilei",
+    period: "2017 — 2022",
+    title: "Scientific High School Diploma",
+    school: "G. Galilei Scientific High School",
     description:
-      "Indirizzo scienze applicate con focus su matematica, fisica e informatica.",
+      "Applied sciences curriculum with a focus on mathematics, physics, and computer science.",
   },
   {
     period: "Continuous",
-    title: "Certificazioni & Corsi",
+    title: "Certifications & Courses",
     school: "Coursera · Frontend Masters · Udemy",
     description:
       "Advanced React Patterns, System Design, UI/UX Design, Cloud Architecture (AWS).",
+  },
+  {
+    period: "2019",
+    title: "English Language Certification",
+    school: "Certified B2 English Level",
+    description:
+      "Achieved B2 level certification in English, demonstrating intermediate to upper-intermediate proficiency in reading, writing, listening, and speaking.",
   },
 ];
 

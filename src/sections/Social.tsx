@@ -3,9 +3,8 @@ import { FiGithub, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
 
 const socials = [
   { icon: FiGithub, href: "https://github.com", label: "GitHub" },
-  { icon: FiLinkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: FiInstagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: FiMail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: FiLinkedin, href: "https://www.linkedin.com/in/klejdi-tahiri-ab69bb291/", label: "LinkedIn" },
+  { icon: FiMail, href: "mailto:kleiditahiri@gmail.com", label: "Email" },
 ];
 
 export function Social() {

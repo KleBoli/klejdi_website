@@ -23,7 +23,7 @@ export function Loader() {
             transition={{ duration: 0.8 }}
             className="relative font-display text-5xl md:text-7xl font-bold text-gradient red-glow-text"
           >
-            ALEX.dev
+            Klejdi.dev
           </motion.div>
           <motion.div
             initial={{ width: 0 }}
