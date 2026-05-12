@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { HiMenu, HiX } from "react-icons/hi";
+import { ThemeToggle } from "./ThemeToggle";
 
 const sections = [
   { id: "hero", label: "Home" },
@@ -77,13 +78,16 @@ export function Navbar() {
             ))}
           </ul>
 
-          <button
-            className="md:hidden text-2xl text-foreground"
-            onClick={() => setOpen(!open)}
-            aria-label="Menu"
-          >
-            {open ? <HiX /> : <HiMenu />}
-          </button>
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
+            <button
+              className="md:hidden text-2xl text-foreground"
+              onClick={() => setOpen(!open)}
+              aria-label="Menu"
+            >
+              {open ? <HiX /> : <HiMenu />}
+            </button>
+          </div>
         </nav>
 
         <motion.div
